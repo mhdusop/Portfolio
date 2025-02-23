@@ -1,8 +1,11 @@
 <script setup lang="ts">
+  import PortfolioView from './views/PortfolioView.vue';
 </script>
 
 <template>
-    <h1 class="text-3xl font-bold underline text-red-600">Portfolio</h1>
+  <div class="w-full h-screen m-auto bg-black p-10">
+    <PortfolioView />
+  </div>
 </template>
 
 <style scoped>
